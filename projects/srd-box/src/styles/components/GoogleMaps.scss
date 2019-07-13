@@ -1,0 +1,13 @@
+.M {
+    & {
+        @extend %PreviewElement;
+    }
+
+    & > .f {
+        @extend %PreviewElement-wrapper;
+        @extend %FallbackBackgroundColor;
+
+        border: none;
+        width: 100%;
+    }
+}

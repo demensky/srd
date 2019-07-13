@@ -1,0 +1,13 @@
+%Heading {
+    & {
+        @extend %Block;
+        @extend %BrandColor;
+
+        font-weight: inherit;
+    }
+
+    &:target {
+        outline: 2px solid currentColor;
+        outline-offset: 2px;
+    }
+}

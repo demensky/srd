@@ -1,0 +1,6 @@
+table {
+    @extend %Block;
+    @extend %FullWidthElement;
+
+    border-spacing: $step 0;
+}

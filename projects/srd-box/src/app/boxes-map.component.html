@@ -1,0 +1,9 @@
+<google-maps-map class="map" [(zoom)]="mapZoom" [(center)]="mapCenter">
+    <google-maps-marker
+        *ngFor="let box of boxes"
+        [position]="box.position"
+        [title]="box.name"
+        [boxBig]="boxesIsBig"
+    ></google-maps-marker>
+</google-maps-map>
+

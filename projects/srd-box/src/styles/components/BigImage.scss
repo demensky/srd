@@ -1,0 +1,24 @@
+.I {
+    & {
+        @extend %PreviewElement;
+    }
+
+    & > .l {
+        @extend %PreviewElement-wrapper;
+
+        overflow: hidden;
+    }
+
+    & > .l > .p > .i {
+        @extend %HorizontalCenter;
+        @extend %MaxContentWidth;
+        @extend %PreviewHeight;
+        @extend %FallbackBackgroundColor;
+
+        position: absolute;
+        left: -$maxContentWidth;
+        right: -$maxContentWidth;
+        //contain: strict;
+        min-width: 100%;
+    }
+}

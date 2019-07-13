@@ -1,0 +1,7 @@
+main {
+    @extend %HorizontalCenter;
+    @extend %MaxContentWidth;
+
+    padding-left: $step;
+    padding-right: $step;
+}

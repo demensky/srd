@@ -1,0 +1,19 @@
+%PreviewElement {
+    & {
+        @extend %Block;
+        @extend %FullWidthElement;
+        @extend %PreviewHeight;
+
+        position: relative;
+    }
+
+    &-wrapper {
+        @extend %HorizontalCenter;
+        @extend %MaxContentWidth;
+        @extend %PreviewHeight;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+}
