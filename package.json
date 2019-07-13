@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "deploy": "ng build --prod --base-href / && gulp && angular-cli-ghpages --cname=box.mk.ua",
+    "deploy": "ng build --prod --base-href / && gulp && angular-cli-ghpages --dir=dist/srd-box/ --cname=box.mk.ua",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
