@@ -1,0 +1,74 @@
+.BoxesFormats {
+    & {
+        @extend %Block;
+
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -$step;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    & > .group {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    & > .group > .items {
+        display: flex;
+    }
+
+    & > .group > .items > svg {
+        margin-left: 10px;
+        overflow: visible;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}
+
+$box-top-color: #eee;
+$box-left-color: #bbb;
+$box-right-color: #888;
+$box-center-color: mix($box-left-color, $box-right-color);
+
+._box {
+    &-side {
+        &-top {
+            fill: $box-top-color;
+        }
+
+        &-left {
+            fill: $box-left-color;
+        }
+
+        &-center {
+            fill: $box-center-color;
+        }
+
+        &-right {
+            fill: $box-right-color;
+        }
+    }
+
+    &-highlighted-area {
+        fill: opacify($brandColor, 0.9);
+        mix-blend-mode: color-burn;
+    }
+
+    &-gradient-start {
+        stop-color: $box-left-color;
+    }
+
+    &-gradient-right {
+        stop-color: $box-right-color;
+    }
+
+    &-text {
+        alignment-baseline: central;
+        font-size: 11px;
+        fill: white;
+        text-anchor: middle;
+    }
+}
