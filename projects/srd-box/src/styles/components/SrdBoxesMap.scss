@@ -1,0 +1,10 @@
+.SrdBoxesMap {
+    & {
+        @extend %PreviewElement;
+        display: block;
+    }
+
+    & > .wrapper {
+        @extend %PreviewElement-wrapper;
+    }
+}
