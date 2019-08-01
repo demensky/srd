@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="36">
+    <style>
+        #section-1:target ~ #box {
+            filter: url(#section-1);
+        }
+        #section-2:target ~ #box {
+            filter: url(#section-2);
+        }
+        #section-3:target ~ #box {
+            filter: url(#section-3);
+        }
+        #section-4:target ~ #box {
+            filter: url(#section-4);
+        }
+    </style>
+    <linearGradient id="stick-fill">
+        <stop offset="0%" stop-color="#b1b1b1 " />
+        <stop offset="100%" stop-color="#515151" />
+    </linearGradient>
+    <filter id="section-1">
+        <feColorMatrix
+            values="
+                0 0 0 0 0
+                0 0 0 0 0
+                0 0 1 0 0
+                0 0 0 1 0
+            "
+        />
+    </filter>
+    <filter id="section-2">
+        <feColorMatrix
+            values="
+                0 0 0 0 0
+                0 1 0 0 0
+                0 0 0 0 0
+                0 0 0 1 0
+            "
+        />
+    </filter>
+    <filter id="section-3">
+        <feColorMatrix
+            values="
+                1 0 0 0 0
+                0 1 0 0 0
+                0 0 0 0 0
+                0 0 0 1 0
+            "
+        />
+    </filter>
+    <filter id="section-4">
+        <feColorMatrix
+            values="
+                1 0 0 0 0
+                0 0 0 0 0
+                0 0 1 0 0
+                0 0 0 1 0
+            "
+        />
+    </filter>
+    <g id="box">
+        <g fill="url(#stick-fill)">
+            <rect x="6" y="26" width="4" height="9" />
+            <ellipse cx="8" cy="35" rx="2" ry="1" />
+        </g>
+            <rect x="6" y="12" width="4" height="15" fill="#777777" />
+            <polygon points="0 6, 8 2, 16 6, 16 7, 8 11, 0 7" fill="#cccccc" />
+            <polygon
+                points="0 6, 8 10, 8 13, 6 12, 6 27, 2 25, 2 10, 0 9"
+                fill="#b1b1b1"
+            />
+            <polygon
+                points="8 10, 16 6, 16 9, 14 10, 14 25, 10 27, 10 12, 8 13"
+                fill="#515151"
+            />
+        <g fill="url(#stick-fill)">
+            <rect x="6" y="1" width="4" height="5" />
+            <ellipse cx="8" cy="6" rx="2" ry="1" />
+        </g>
+        <ellipse cx="8" cy="1" rx="2" ry="1" fill="#cccccc" />
+    </g>
+</svg>
