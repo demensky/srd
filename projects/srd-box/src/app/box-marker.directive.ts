@@ -1,5 +1,6 @@
 import {Directive, Inject, Input, OnChanges} from '@angular/core';
 import {Box} from './boxes-map.component';
+import Marker = google.maps.Marker;
 
 const SIZE_BIG = new google.maps.Size(16, 36);
 const SIZE_SMALL = new google.maps.Size(8, 18);
@@ -16,11 +17,7 @@ export class BoxMarkerDirective implements OnChanges {
 
     @Input() boxIsBig = false;
 
-    public constructor(
-        @Inject(google.maps.Marker)
-        private readonly
-        _marker: google.maps.Marker,
-    ) {}
+    public constructor(@Inject(Marker) private readonly _marker: Marker) {}
 
     public ngOnChanges(): void {
         let url = 'assets/box-icon.svg';
