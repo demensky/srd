@@ -1,11 +1,31 @@
 <div class="wrapper">
-    <google-maps-map class="map" [(zoom)]="mapZoom" [(center)]="mapCenter">
-        <google-maps-marker
+    <gm-map class="map" [(gmZoom)]="mapZoom" [(gmCenter)]="mapCenter">
+        <gm-marker
             *ngFor="let box of boxes"
-            [position]="box.position"
-            [title]="box.name"
-            [boxBig]="boxesIsBig"
-            [optimized]="true"
-        ></google-maps-marker>
-    </google-maps-map>
+            #marker
+            [gmPosition]="box.position"
+            [box]="box"
+            [boxIsBig]="boxesIsBig"
+            (gmClick)="onBoxMarkerClick(box, marker)"
+        ></gm-marker>
+    </gm-map>
 </div>
+
+<gm-info-window #window (gmCloseclick)="onInfoWindowCloseClick()">
+    <div *ngIf="currentBox !== null" class="info-window-wrapper">
+        <table class="info-window-table">
+            <tr>
+                <th>Номер</th>
+                <td>{{ currentBox.name }}</td>
+            </tr>
+            <tr>
+                <th>Секция</th>
+                <td>{{ currentBox.section }}</td>
+            </tr>
+            <tr>
+                <th>Арендован</th>
+                <td>{{ currentBox.client ? 'Да' : 'Нет' }}</td>
+            </tr>
+        </table>
+    </div>
+</gm-info-window>

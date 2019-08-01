@@ -1,12 +1,23 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
-import {GoogleMapsModule} from '../modules/google-maps/google-maps.module';
+import {
+    GmCommonModule,
+    GmInfoWindowModule,
+    GmMapModule,
+    GmMarkerModule,
+} from 'nggm';
 import {BoxMarkerDirective} from './box-marker.directive';
 import {BoxesMapComponent} from './boxes-map.component';
 
 @NgModule({
+    imports: [
+        BrowserModule,
+        GmCommonModule,
+        GmMarkerModule,
+        GmMapModule,
+        GmInfoWindowModule,
+    ],
     declarations: [BoxesMapComponent, BoxMarkerDirective],
-    imports: [BrowserModule, GoogleMapsModule],
     providers: [],
     bootstrap: [BoxesMapComponent],
 })
