@@ -7,6 +7,7 @@ import {
     HostBinding,
     Inject,
     Input,
+    NgZone,
 } from '@angular/core';
 import {GM_MARKER_CONTAINER_ACCESSOR, GmMarkerContainerAccessor} from 'nggm';
 import {Box} from '../boxes-map.component';
@@ -36,6 +37,7 @@ export class BoxMarkerComponent extends OverlayView {
         container: GmMarkerContainerAccessor,
         private readonly _elementRef: ElementRef<HTMLElement>,
         private readonly _changeDetectorRef: ChangeDetectorRef,
+        private readonly _ngZone: NgZone,
     ) {
         super();
         this.setMap(container);
@@ -108,7 +110,9 @@ export class BoxMarkerComponent extends OverlayView {
             return;
         }
 
-        this._changeDetectorRef.markForCheck();
+        this._ngZone.run(() => {
+            this._changeDetectorRef.markForCheck();
+        });
     }
 
     @HostBinding('style.left.px') public get left(): number {
