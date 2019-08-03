@@ -1,0 +1,66 @@
+$amount: 12%;
+$stick-amount: 5%;
+
+@mixin tmp($base-color) {
+    $top: lighten($base-color, 15%);
+    $left: lighten($base-color, 8%);
+    $center: $base-color;
+    $right: darken($base-color, 8%);
+
+    .stick-top {
+        fill: darken($top, $stick-amount);
+    }
+
+    .stick-center {
+        fill: darken($center, $stick-amount);
+    }
+
+    .box-top {
+        fill: $top;
+    }
+
+    .box-center {
+        fill: $center;
+    }
+
+    .box-left {
+        fill: $left;
+    }
+
+    .box-right {
+        fill: $right;
+    }
+}
+
+//@include tmp(#777777);
+
+$lightness: 40%;
+
+@include tmp(hsl(240, 0%, $lightness));
+
+:host[data-section='1'] {
+    @include tmp(hsl(240, 50%, $lightness));
+}
+
+:host[data-section='2'] {
+    @include tmp(hsl(120, 50%, $lightness));
+}
+
+:host[data-section='3'] {
+    @include tmp(hsl(60, 50%, $lightness));
+}
+
+:host[data-section='4'] {
+    @include tmp(hsl(300, 50%, $lightness));
+}
+
+:host {
+    position: absolute;
+    pointer-events: none;
+    will-change: left, top, width, height;
+}
+
+:host * {
+    pointer-events: auto;
+    cursor: default;
+}

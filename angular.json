@@ -22,7 +22,7 @@
                         "main": "projects/srd-box/src/main.ts",
                         "polyfills": "projects/srd-box/src/polyfills.ts",
                         "tsConfig": "projects/srd-box/tsconfig.app.json",
-                        "aot": true,
+                        "aot": false,
                         "assets": [
                             "projects/srd-box/src/favicon.ico",
                             "projects/srd-box/src/assets",
@@ -45,10 +45,10 @@
                             "sourceMap": false,
                             "extractCss": true,
                             "namedChunks": false,
-                            "aot": true,
+                            "aot": false,
                             "extractLicenses": true,
                             "vendorChunk": false,
-                            "buildOptimizer": true,
+                            "buildOptimizer": false,
                             "budgets": [
                                 {
                                     "type": "initial",

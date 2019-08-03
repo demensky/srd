@@ -1,31 +1,9 @@
 <div class="wrapper">
     <gm-map class="map" [(gmZoom)]="mapZoom" [(gmCenter)]="mapCenter">
-        <gm-marker
+        <svg
             *ngFor="let box of boxes"
-            #marker
-            [gmPosition]="box.position"
-            [box]="box"
-            [boxIsBig]="boxesIsBig"
-            (gmClick)="onBoxMarkerClick(box, marker)"
-        ></gm-marker>
+            [srdBoxMarker]="box"
+            [matTooltip]="boxTooltip(box)"
+        ></svg>
     </gm-map>
 </div>
-
-<gm-info-window #window (gmCloseclick)="onInfoWindowCloseClick()">
-    <div *ngIf="currentBox !== null" class="info-window-wrapper">
-        <table class="info-window-table">
-            <tr>
-                <th>Номер</th>
-                <td>{{ currentBox.name }}</td>
-            </tr>
-            <tr>
-                <th>Секция</th>
-                <td>{{ currentBox.section }}</td>
-            </tr>
-            <tr>
-                <th>Арендован</th>
-                <td>{{ currentBox.client ? 'Да' : 'Нет' }}</td>
-            </tr>
-        </table>
-    </div>
-</gm-info-window>

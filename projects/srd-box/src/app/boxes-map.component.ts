@@ -1,4 +1,8 @@
 import {ChangeDetectionStrategy, Component, ViewChild} from '@angular/core';
+import {
+    MAT_TOOLTIP_DEFAULT_OPTIONS,
+    MatTooltipDefaultOptions,
+} from '@angular/material';
 import {GM_MARKER_OPTIONS} from 'nggm';
 import {boxes} from '../data.json';
 
@@ -36,12 +40,22 @@ export class Box {
     providers: [
         {
             provide: GM_MARKER_OPTIONS,
-            useValue: {optimized: true} as google.maps.MarkerOptions,
+            useValue: {
+                // optimized: true
+            } as google.maps.MarkerOptions,
+        },
+        {
+            provide: MAT_TOOLTIP_DEFAULT_OPTIONS,
+            useValue: {
+                position: 'above',
+                showDelay: 200,
+            } as MatTooltipDefaultOptions,
         },
     ],
 })
 export class BoxesMapComponent {
     @ViewChild('window', {static: true})
+    // tslint:disable-next-line:variable-name
     private readonly _infoWindow!: google.maps.InfoWindow;
 
     public mapCenter = new google.maps.LatLng(46.9606852, 32.0003433);
@@ -52,16 +66,13 @@ export class BoxesMapComponent {
 
     public currentBox: Box | null = null;
 
-    public get boxesIsBig(): boolean {
-        return this.mapZoom >= 16;
-    }
+    public boxTooltip({name, section, client}: Box): string {
+        let result = `${name}/${section}`;
 
-    public onBoxMarkerClick(box: Box, marker: google.maps.Marker): void {
-        this.currentBox = box;
-        this._infoWindow.open(undefined, marker);
-    }
+        if (client) {
+            result += ' (арендован)';
+        }
 
-    public onInfoWindowCloseClick(): void {
-        this.currentBox = null;
+        return result;
     }
 }

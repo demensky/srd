@@ -62,16 +62,16 @@
             <rect x="6" y="26" width="4" height="9" />
             <ellipse cx="8" cy="35" rx="2" ry="1" />
         </g>
-            <rect x="6" y="12" width="4" height="15" fill="#777777" />
-            <polygon points="0 6, 8 2, 16 6, 16 7, 8 11, 0 7" fill="#cccccc" />
-            <polygon
-                points="0 6, 8 10, 8 13, 6 12, 6 27, 2 25, 2 10, 0 9"
-                fill="#b1b1b1"
-            />
-            <polygon
-                points="8 10, 16 6, 16 9, 14 10, 14 25, 10 27, 10 12, 8 13"
-                fill="#515151"
-            />
+        <rect x="6" y="12" width="4" height="15" fill="#777777" />
+        <polygon
+            points="0 6, 8 6, 8 13, 6 12, 6 27, 2 25, 2 10, 0 9"
+            fill="#b1b1b1"
+        />
+        <polygon
+            points="8 6, 16 6, 16 9, 14 10, 14 25, 10 27, 10 12, 8 13"
+            fill="#515151"
+        />
+        <polygon points="0 6, 8 2, 16 6, 8 10" fill="#cccccc" />
         <g fill="url(#stick-fill)">
             <rect x="6" y="1" width="4" height="5" />
             <ellipse cx="8" cy="6" rx="2" ry="1" />
