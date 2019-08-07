@@ -466,13 +466,13 @@
             "name": "78",
             "section": 1,
             "client": true,
-            "position": {"lat": 46.9667496, "lng": 31.9881317}
+            "position": {"lat": 46.9676064, "lng": 31.9755065}
         },
         {
             "name": "79",
             "section": 2,
             "client": false,
-            "position": {"lat": 46.9666945, "lng": 31.9885863}
+            "position": {"lat": 46.9675431, "lng": 31.9766934}
         },
         {
             "name": "80",
@@ -687,13 +687,13 @@
         {
             "name": "119",
             "section": 3,
-            "client": false,
+            "client": true,
             "position": {"lat": 46.9650617, "lng": 32.0141766}
         },
         {
             "name": "120",
             "section": 4,
-            "client": true,
+            "client": false,
             "position": {"lat": 46.9648594, "lng": 32.0176417}
         },
         {
@@ -715,10 +715,10 @@
             "position": {"lat": 46.9644069, "lng": 32.0244277}
         },
         {
-            "name": "126",
-            "section": 2,
+            "name": "124",
+            "section": 4,
             "client": false,
-            "position": {"lat": 46.9651436, "lng": 32.0197358}
+            "position": {"lat": 46.9649633, "lng": 32.0223285}
         },
         {
             "name": "127",
@@ -807,13 +807,13 @@
         {
             "name": "141",
             "section": 1,
-            "client": true,
+            "client": false,
             "position": {"lat": 46.9666805, "lng": 31.9951953}
         },
         {
             "name": "142",
             "section": 2,
-            "client": false,
+            "client": true,
             "position": {"lat": 46.9667448, "lng": 31.9943457}
         },
         {
@@ -843,7 +843,7 @@
         {
             "name": "147",
             "section": 3,
-            "client": true,
+            "client": false,
             "position": {"lat": 46.9669571, "lng": 31.9907944}
         },
         {
@@ -855,19 +855,19 @@
         {
             "name": "149",
             "section": 1,
-            "client": false,
+            "client": true,
             "position": {"lat": 46.9670267, "lng": 31.9899851}
         },
         {
             "name": "150",
             "section": 2,
-            "client": true,
+            "client": false,
             "position": {"lat": 46.9670747, "lng": 31.9894872}
         },
         {
             "name": "151",
             "section": 3,
-            "client": false,
+            "client": true,
             "position": {"lat": 46.9670594, "lng": 31.9891724}
         },
         {
@@ -1245,7 +1245,7 @@
         {
             "name": "214",
             "section": 1,
-            "client": false,
+            "client": true,
             "position": {"lat": 46.9546358, "lng": 32.0374364}
         },
         {
@@ -1257,7 +1257,7 @@
         {
             "name": "216",
             "section": 1,
-            "client": true,
+            "client": false,
             "position": {"lat": 46.9537783, "lng": 32.0390068}
         },
         {
@@ -1348,7 +1348,7 @@
             "name": "231",
             "section": 2,
             "client": true,
-            "position": {"lat": 46.9539998, "lng": 32.0390393}
+            "position": {"lat": 46.954373, "lng": 32.038676}
         }
     ]
 }
