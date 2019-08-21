@@ -231,7 +231,7 @@
         {
             "name": "39",
             "section": 3,
-            "client": false,
+            "client": true,
             "position": {"lat": 46.971524, "lng": 31.9922646}
         },
         {
@@ -633,7 +633,7 @@
         {
             "name": "110",
             "section": 2,
-            "client": false,
+            "client": true,
             "position": {"lat": 46.9661996, "lng": 31.9962323}
         },
         {
@@ -725,18 +725,6 @@
             "section": 1,
             "client": false,
             "position": {"lat": 46.965220, "lng": 32.018200}
-        },
-        {
-            "name": "130",
-            "section": 2,
-            "client": false,
-            "position": {"lat": 46.965355, "lng": 32.016354}
-        },
-        {
-            "name": "131",
-            "section": 3,
-            "client": false,
-            "position": {"lat": 46.965494, "lng": 32.014530}
         },
         {
             "name": "132",
