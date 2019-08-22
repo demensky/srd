@@ -997,12 +997,6 @@
             "position": {"lat": 46.968209, "lng": 31.971900}
         },
         {
-            "name": "177",
-            "section": 1,
-            "client": false,
-            "position": {"lat": 46.968286, "lng": 31.970996}
-        },
-        {
             "name": "178",
             "section": 2,
             "client": false,
