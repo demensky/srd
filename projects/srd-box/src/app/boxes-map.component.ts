@@ -1,28 +1,75 @@
 import {ChangeDetectionStrategy, Component, ViewChild} from '@angular/core';
 import {GM_MARKER_OPTIONS} from 'nggm';
-import {boxes} from '../data.json';
+import {boxes, districts, sections} from '../data.json';
+import Color = require('color');
+
+export interface UniqueLiteral {
+    readonly id: string;
+}
+
+export interface NamedLiteral {
+    readonly name: string;
+}
+
+export interface DistrictLiteral extends UniqueLiteral, NamedLiteral {}
+
+export class District {
+    public constructor(
+        public readonly id: string,
+        public readonly name: string,
+    ) {}
+
+    public static deserialize({id, name}: DistrictLiteral): District {
+        return new District(id, name);
+    }
+}
+
+export interface SectionLiteral extends NamedLiteral, UniqueLiteral {
+    readonly color: string;
+}
+
+export class Section {
+    public constructor(
+        public readonly id: string,
+        public readonly name: string,
+        public readonly color: Color,
+    ) {}
+
+    public static deserialize({id, name, color}: SectionLiteral): Section {
+        return new Section(id, name, new Color(color));
+    }
+}
 
 export interface BoxLiteral {
     readonly name: string;
+    readonly districtId: string;
     readonly position: google.maps.ReadonlyLatLngLiteral;
-    readonly section: number;
+    readonly sectionId: string;
     readonly client: boolean;
 }
 
 export class Box {
     public static deserialize({
         name,
+        districtId,
         position,
-        section,
+        sectionId,
         client,
     }: BoxLiteral): Box {
-        return new Box(name, new google.maps.LatLng(position), section, client);
+        return new Box(
+            name,
+            districtId,
+            new google.maps.LatLng(position),
+            sectionId,
+            client,
+        );
     }
 
     private constructor(
         public readonly name: string,
+        public readonly districtId: string,
         public readonly position: google.maps.LatLng,
-        public readonly section: number,
+        public readonly sectionId: string,
         public readonly client: boolean,
     ) {}
 }
@@ -50,11 +97,15 @@ export class BoxesMapComponent {
 
     public boxes: readonly Box[] = boxes.map<Box>(Box.deserialize);
 
-    public currentBox: Box | null = null;
+    public districts: readonly District[] = districts.map<District>(
+        District.deserialize,
+    );
 
-    public get boxesIsBig(): boolean {
-        return this.mapZoom >= 16;
-    }
+    public sections: readonly Section[] = sections.map<Section>(
+        Section.deserialize,
+    );
+
+    public currentBox: Box | null = null;
 
     public onBoxMarkerClick(box: Box, marker: google.maps.Marker): void {
         this.currentBox = box;
@@ -63,5 +114,21 @@ export class BoxesMapComponent {
 
     public onInfoWindowCloseClick(): void {
         this.currentBox = null;
+    }
+
+    public getBoxesCount(district: District, section: Section): number {
+        return this.boxes.reduce<number>(
+            (result, box) =>
+                district.id === box.districtId &&
+                section.id === box.sectionId &&
+                !box.client
+                    ? result + 1
+                    : result,
+            0,
+        );
+    }
+
+    public getBoxColor({sectionId}: Box): Color {
+        return this.sections.find(({id}) => id === sectionId).color;
     }
 }

@@ -1,13 +1,15 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {
-    GmCommonModule,
+    GmCommonModule, GmControlModule,
     GmInfoWindowModule,
     GmMapModule,
     GmMarkerModule,
 } from 'nggm';
-import {BoxMarkerDirective} from './box-marker.directive';
+import {BoxMarkerComponent} from './box-marker/box-marker.component';
 import {BoxesMapComponent} from './boxes-map.component';
+import { LightenPipe } from './lighten.pipe';
+import { DarkenPipe } from './darken.pipe';
 
 @NgModule({
     imports: [
@@ -16,8 +18,9 @@ import {BoxesMapComponent} from './boxes-map.component';
         GmMarkerModule,
         GmMapModule,
         GmInfoWindowModule,
+        GmControlModule,
     ],
-    declarations: [BoxesMapComponent, BoxMarkerDirective],
+    declarations: [BoxesMapComponent, BoxMarkerComponent, LightenPipe, DarkenPipe],
     providers: [],
     bootstrap: [BoxesMapComponent],
 })

@@ -17,3 +17,35 @@
     margin-top: 8px;
     margin-bottom: 8px;
 }
+
+.count {
+    & {
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.3) 0 1px 4px -1px;
+        border-radius: 2px;
+        margin: 10px 10px 0;
+        padding: 0 10px;
+        //font-size: 14px;
+        //line-height: 20px;
+    }
+
+    & p, & table {
+        margin: 10px 0;
+    }
+
+    & table {
+        border-spacing: 0;
+        //margin: 0;
+    }
+
+    & th {
+        padding-right: 4px;
+        font-size: 10px;
+        text-align: right;
+    }
+
+    & td {
+        padding: 0 4px;
+        //color: white;
+    }
+}

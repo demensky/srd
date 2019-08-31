@@ -2,1335 +2,1597 @@
     "boxes": [
         {
             "name": "1",
-            "section": 1,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9653553, "lng": 31.9880643}
         },
         {
             "name": "2",
-            "section": 2,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9664922, "lng": 31.9888143}
         },
         {
             "name": "3",
-            "section": 3,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.9673847, "lng": 31.9893853}
         },
         {
             "name": "4",
-            "section": 4,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9676403, "lng": 31.9895851}
         },
         {
             "name": "5",
-            "section": 1,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9680887, "lng": 31.9898798}
         },
         {
             "name": "6",
-            "section": 2,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9683985, "lng": 31.9901115}
         },
         {
             "name": "7",
-            "section": 3,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.9690524, "lng": 31.9905289}
         },
         {
             "name": "8",
-            "section": 4,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9694171, "lng": 31.990773}
         },
         {
             "name": "9",
-            "section": 1,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9697482, "lng": 31.9909916}
         },
         {
             "name": "10",
-            "section": 2,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9700353, "lng": 31.9911659}
         },
         {
             "name": "11",
-            "section": 3,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.9703906, "lng": 31.9914274}
         },
         {
             "name": "12",
-            "section": 4,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9705567, "lng": 31.9915548}
         },
         {
             "name": "13",
-            "section": 1,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9709308, "lng": 31.9917228}
         },
         {
             "name": "14",
-            "section": 2,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9711813, "lng": 31.9919119}
         },
         {
             "name": "15",
-            "section": 3,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.9715974, "lng": 31.9921982}
         },
         {
             "name": "16",
-            "section": 4,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9719426, "lng": 31.9924021}
         },
         {
             "name": "17",
-            "section": 1,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9724606, "lng": 31.992567}
         },
         {
             "name": "18",
-            "section": 2,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9727033, "lng": 31.9928966}
         },
         {
             "name": "19",
-            "section": 3,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.9728831, "lng": 31.9930016}
         },
         {
             "name": "20",
-            "section": 4,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9732332, "lng": 31.9932376}
         },
         {
             "name": "21",
-            "section": 1,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9734702, "lng": 31.9933569}
         },
         {
             "name": "22",
-            "section": 2,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9737671, "lng": 31.9935708}
         },
         {
             "name": "23",
-            "section": 3,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.9739449, "lng": 31.9937241}
         },
         {
             "name": "24",
-            "section": 4,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9742828, "lng": 31.9939306}
         },
         {
             "name": "25",
-            "section": 1,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9745067, "lng": 31.9940875}
         },
         {
             "name": "26",
-            "section": 2,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9749027, "lng": 31.9943339}
         },
         {
             "name": "27",
-            "section": 3,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.9748558, "lng": 31.9944821}
         },
         {
             "name": "28",
-            "section": 4,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9746399, "lng": 31.9943071}
         },
         {
             "name": "29",
-            "section": 1,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.974278, "lng": 31.9940895}
         },
         {
             "name": "30",
-            "section": 2,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9740826, "lng": 31.993939}
         },
         {
             "name": "31",
-            "section": 3,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.9737138, "lng": 31.993705}
         },
         {
             "name": "32",
-            "section": 4,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9734125, "lng": 31.9934602}
         },
         {
             "name": "33",
-            "section": 1,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9731483, "lng": 31.9933174}
         },
         {
             "name": "34",
-            "section": 2,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9728278, "lng": 31.9931115}
         },
         {
             "name": "35",
-            "section": 3,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.9726214, "lng": 31.9930056}
         },
         {
             "name": "36",
-            "section": 4,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9722808, "lng": 31.9927913}
         },
         {
             "name": "37",
-            "section": 1,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.971899, "lng": 31.9925442}
         },
         {
             "name": "38",
-            "section": 2,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "24bd3610ec05",
             "client": true,
             "position": {"lat": 46.9716661, "lng": 31.992382}
         },
         {
             "name": "39",
-            "section": 3,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "12aa44de593d",
             "client": true,
             "position": {"lat": 46.971524, "lng": 31.9922646}
         },
         {
             "name": "40",
-            "section": 4,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9711252, "lng": 31.9920145}
         },
         {
             "name": "41",
-            "section": 1,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9707711, "lng": 31.9918043}
         },
         {
             "name": "42",
-            "section": 2,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9705702, "lng": 31.9916484}
         },
         {
             "name": "43",
-            "section": 3,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.9702687, "lng": 31.9914734}
         },
         {
             "name": "44",
-            "section": 4,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.969866, "lng": 31.99124}
         },
         {
             "name": "45",
-            "section": 1,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9696949, "lng": 31.9911015}
         },
         {
             "name": "46",
-            "section": 2,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9693636, "lng": 31.9908883}
         },
         {
             "name": "47",
-            "section": 3,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "12aa44de593d",
             "client": true,
             "position": {"lat": 46.9690453, "lng": 31.9906908}
         },
         {
             "name": "48",
-            "section": 4,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9686417, "lng": 31.9903877}
         },
         {
             "name": "49",
-            "section": 1,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "58b182599a25",
             "client": true,
             "position": {"lat": 46.9683647, "lng": 31.9902268}
         },
         {
             "name": "50",
-            "section": 2,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9679911, "lng": 31.9900448}
         },
         {
             "name": "51",
-            "section": 3,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.9676755, "lng": 31.9897842}
         },
         {
             "name": "52",
-            "section": 4,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "8a90725222f7",
             "client": true,
             "position": {"lat": 46.9663437, "lng": 31.988929}
         },
         {
             "name": "53",
-            "section": 1,
+            "districtId": "a70aa17d19d9",
+            "sectionId": "58b182599a25",
             "client": true,
             "position": {"lat": 46.9660636, "lng": 31.9887308}
         },
         {
             "name": "54",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9685825, "lng": 31.9599131}
         },
         {
             "name": "55",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9686001, "lng": 31.9604265}
         },
         {
             "name": "56",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.9685793, "lng": 31.9607674}
         },
         {
             "name": "57",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9685095, "lng": 31.9611664}
         },
         {
             "name": "58",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9684987, "lng": 31.9615744}
         },
         {
             "name": "59",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9684617, "lng": 31.9622359}
         },
         {
             "name": "60",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.968391, "lng": 31.9634865}
         },
         {
             "name": "61",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9683608, "lng": 31.9638181}
         },
         {
             "name": "62",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9683445, "lng": 31.9641655}
         },
         {
             "name": "63",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9681057, "lng": 31.9668926}
         },
         {
             "name": "64",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.968121, "lng": 31.9673301}
         },
         {
             "name": "65",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9680537, "lng": 31.9683138}
         },
         {
             "name": "66",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9680066, "lng": 31.9686927}
         },
         {
             "name": "67",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9679819, "lng": 31.9690152}
         },
         {
             "name": "68",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.9679503, "lng": 31.969789}
         },
         {
             "name": "69",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9679419, "lng": 31.9701578}
         },
         {
             "name": "70",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9678977, "lng": 31.9705518}
         },
         {
             "name": "71",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9678819, "lng": 31.9708867}
         },
         {
             "name": "72",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.967832, "lng": 31.9713018}
         },
         {
             "name": "73",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.967803, "lng": 31.971753}
         },
         {
             "name": "74",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.967806, "lng": 31.9721226}
         },
         {
             "name": "75",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.967704, "lng": 31.972851}
         },
         {
             "name": "76",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.967634, "lng": 31.973987}
         },
         {
             "name": "77",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.967639, "lng": 31.974462}
         },
         {
             "name": "78",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": true,
             "position": {"lat": 46.9676064, "lng": 31.9755065}
         },
         {
             "name": "79",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9675431, "lng": 31.9766934}
         },
         {
             "name": "80",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.9673486, "lng": 31.9789146}
         },
         {
             "name": "81",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9673408, "lng": 31.9792391}
         },
         {
             "name": "82",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9672566, "lng": 31.9804917}
         },
         {
             "name": "85",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": true,
             "position": {"lat": 46.9670582, "lng": 31.9831226}
         },
         {
             "name": "86",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9670653, "lng": 31.9833007}
         },
         {
             "name": "87",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9670031, "lng": 31.9838817}
         },
         {
             "name": "88",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.966996, "lng": 31.9841499}
         },
         {
             "name": "89",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9669731, "lng": 31.9844671}
         },
         {
             "name": "90",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": true,
             "position": {"lat": 46.9669638, "lng": 31.9847608}
         },
         {
             "name": "91",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": true,
             "position": {"lat": 46.9669146, "lng": 31.9854045}
         },
         {
             "name": "92",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.9669088, "lng": 31.9855722}
         },
         {
             "name": "93",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.966869, "lng": 31.9859343}
         },
         {
             "name": "94",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9668532, "lng": 31.9864231}
         },
         {
             "name": "95",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9668457, "lng": 31.9866075}
         },
         {
             "name": "97",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9667889, "lng": 31.9875426}
         },
         {
             "name": "98",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": true,
             "position": {"lat": 46.9667668, "lng": 31.9878634}
         },
         {
             "name": "99",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9667496, "lng": 31.9881317}
         },
         {
             "name": "100",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.9666945, "lng": 31.9885863}
         },
         {
             "name": "101",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9666668, "lng": 31.9889068}
         },
         {
             "name": "102",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": true,
             "position": {"lat": 46.9666654, "lng": 31.9891724}
         },
         {
             "name": "104",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9665762, "lng": 31.9902442}
         },
         {
             "name": "105",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9665396, "lng": 31.9906332}
         },
         {
             "name": "106",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9665197, "lng": 31.9910445}
         },
         {
             "name": "107",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.9664721, "lng": 31.9918479}
         },
         {
             "name": "108",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9662899, "lng": 31.9948513}
         },
         {
             "name": "109",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9662041, "lng": 31.9957089}
         },
         {
             "name": "110",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": true,
             "position": {"lat": 46.9661996, "lng": 31.9962323}
         },
         {
             "name": "111",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.9659689, "lng": 31.9990583}
         },
         {
             "name": "112",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9658765, "lng": 32.0012678}
         },
         {
             "name": "115",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.9652315, "lng": 32.0108272}
         },
         {
             "name": "116",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9652239, "lng": 32.0113526}
         },
         {
             "name": "117",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.965132, "lng": 32.0124895}
         },
         {
             "name": "118",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9651345, "lng": 32.012876}
         },
         {
             "name": "119",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": true,
             "position": {"lat": 46.9650617, "lng": 32.0141766}
         },
         {
             "name": "120",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.9648594, "lng": 32.0176417}
         },
         {
             "name": "121",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9648457, "lng": 32.0177956}
         },
         {
             "name": "122",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.964517, "lng": 32.022716}
         },
         {
             "name": "123",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
-            "position": {"lat": 46.964481, "lng": 32.023040}
+            "position": {"lat": 46.964481, "lng": 32.02304}
         },
         {
             "name": "124",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.964411, "lng": 32.023979}
         },
         {
             "name": "127",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.965169, "lng": 32.020101}
         },
         {
             "name": "128",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.965198, "lng": 32.018964}
         },
         {
             "name": "129",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
-            "position": {"lat": 46.965220, "lng": 32.018200}
+            "position": {"lat": 46.96522, "lng": 32.0182}
         },
         {
             "name": "132",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.965553, "lng": 32.013564}
         },
         {
             "name": "133",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.965533, "lng": 32.013198}
         },
         {
             "name": "134",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.965561, "lng": 32.012846}
         },
         {
             "name": "135",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.965605, "lng": 32.012428}
         },
         {
             "name": "136",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
-            "position": {"lat": 46.965825, "lng": 32.008350}
+            "position": {"lat": 46.965825, "lng": 32.00835}
         },
         {
             "name": "137",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.966053, "lng": 32.005114}
         },
         {
             "name": "138",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.966083, "lng": 32.004806}
         },
         {
             "name": "139",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.966088, "lng": 32.004292}
         },
         {
             "name": "140",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.966439, "lng": 31.999547}
         },
         {
             "name": "141",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.966669, "lng": 31.995701}
         },
         {
             "name": "142",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": true,
             "position": {"lat": 46.966735, "lng": 31.995197}
         },
         {
             "name": "143",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
-            "position": {"lat": 46.966750, "lng": 31.994293}
+            "position": {"lat": 46.96675, "lng": 31.994293}
         },
         {
             "name": "144",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.966835, "lng": 31.992964}
         },
         {
             "name": "145",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.966884, "lng": 31.992528}
         },
         {
             "name": "146",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.966981, "lng": 31.991543}
         },
         {
             "name": "147",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.966965, "lng": 31.991254}
         },
         {
             "name": "148",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": true,
             "position": {"lat": 46.966987, "lng": 31.990812}
         },
         {
             "name": "149",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": true,
             "position": {"lat": 46.967027, "lng": 31.990383}
         },
         {
             "name": "150",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.967053, "lng": 31.989932}
         },
         {
             "name": "151",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": true,
             "position": {"lat": 46.967082, "lng": 31.989455}
         },
         {
             "name": "152",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.967068, "lng": 31.989165}
         },
         {
             "name": "153",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.967071, "lng": 31.988655}
         },
         {
             "name": "154",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.967122, "lng": 31.988231}
         },
         {
             "name": "155",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.967155, "lng": 31.987788}
         },
         {
             "name": "156",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.967181, "lng": 31.987394}
         },
         {
             "name": "157",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.967214, "lng": 31.987005}
         },
         {
             "name": "158",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.967247, "lng": 31.986471}
         },
         {
             "name": "159",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.967255, "lng": 31.986106}
         },
         {
             "name": "160",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.967295, "lng": 31.985747}
         },
         {
             "name": "161",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": true,
             "position": {"lat": 46.967344, "lng": 31.984803}
         },
         {
             "name": "162",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.967382, "lng": 31.984436}
         },
         {
             "name": "163",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.967415, "lng": 31.984023}
         },
         {
             "name": "164",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.967442, "lng": 31.983647}
         },
         {
             "name": "165",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.967469, "lng": 31.983288}
         },
         {
             "name": "166",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.967498, "lng": 31.982858}
         },
         {
             "name": "167",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.967518, "lng": 31.982501}
         },
         {
             "name": "168",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.967668, "lng": 31.980363}
         },
         {
             "name": "169",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.967705, "lng": 31.979856}
         },
         {
             "name": "170",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.967813, "lng": 31.978389}
         },
         {
             "name": "171",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.967895, "lng": 31.977232}
         },
         {
             "name": "172",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": true,
             "position": {"lat": 46.968005, "lng": 31.975504}
         },
         {
             "name": "173",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
-            "position": {"lat": 46.968045, "lng": 31.974910}
+            "position": {"lat": 46.968045, "lng": 31.97491}
         },
         {
             "name": "174",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.968048, "lng": 31.974446}
         },
         {
             "name": "175",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.968167, "lng": 31.972426}
         },
         {
             "name": "176",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
-            "position": {"lat": 46.968209, "lng": 31.971900}
+            "position": {"lat": 46.968209, "lng": 31.9719}
         },
         {
             "name": "178",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.968467, "lng": 31.968377}
         },
         {
             "name": "179",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.968505, "lng": 31.967524}
         },
         {
             "name": "180",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.968604, "lng": 31.966185}
         },
         {
             "name": "181",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
-            "position": {"lat": 46.968625, "lng": 31.965940}
+            "position": {"lat": 46.968625, "lng": 31.96594}
         },
         {
             "name": "182",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.968769, "lng": 31.963876}
         },
         {
             "name": "183",
-            "section": 3,
+            "districtId": "441848f2e138",
+            "sectionId": "12aa44de593d",
             "client": false,
             "position": {"lat": 46.968936, "lng": 31.961557}
         },
         {
             "name": "184",
-            "section": 4,
+            "districtId": "441848f2e138",
+            "sectionId": "8a90725222f7",
             "client": false,
             "position": {"lat": 46.968962, "lng": 31.961155}
         },
         {
             "name": "232",
-            "section": 1,
+            "districtId": "441848f2e138",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9677, "lng": 31.975877}
         },
         {
             "name": "233",
-            "section": 2,
+            "districtId": "441848f2e138",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.967993, "lng": 31.971172}
         },
         {
             "name": "185",
-            "section": 2,
+            "districtId": "88a96abaed18",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.953012, "lng": 31.944711}
         },
         {
             "name": "186",
-            "section": 1,
+            "districtId": "88a96abaed18",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.952818, "lng": 31.944156}
         },
         {
             "name": "187",
-            "section": 2,
+            "districtId": "88a96abaed18",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9523236, "lng": 31.9425247}
         },
         {
             "name": "188",
-            "section": 1,
+            "districtId": "88a96abaed18",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9526525, "lng": 31.9422951}
         },
         {
             "name": "189",
-            "section": 2,
+            "districtId": "88a96abaed18",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9520341, "lng": 31.942795}
         },
         {
             "name": "190",
-            "section": 1,
+            "districtId": "88a96abaed18",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9521996, "lng": 31.9428583}
         },
         {
             "name": "191",
-            "section": 2,
+            "districtId": "88a96abaed18",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.952284, "lng": 31.9431842}
         },
         {
             "name": "192",
-            "section": 1,
+            "districtId": "88a96abaed18",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9524262, "lng": 31.9435892}
         },
         {
             "name": "193",
-            "section": 2,
+            "districtId": "88a96abaed18",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9530935, "lng": 31.9456984}
         },
         {
             "name": "194",
-            "section": 1,
+            "districtId": "88a96abaed18",
+            "sectionId": "58b182599a25",
             "client": false,
-            "position": {"lat": 46.954164, "lng": 31.949080}
+            "position": {"lat": 46.954164, "lng": 31.94908}
         },
         {
             "name": "195",
-            "section": 2,
+            "districtId": "88a96abaed18",
+            "sectionId": "24bd3610ec05",
             "client": false,
-            "position": {"lat": 46.954347, "lng": 31.949600}
+            "position": {"lat": 46.954347, "lng": 31.9496}
         },
         {
             "name": "196",
-            "section": 1,
+            "districtId": "88a96abaed18",
+            "sectionId": "58b182599a25",
             "client": false,
-            "position": {"lat": 46.954497, "lng": 31.950040}
+            "position": {"lat": 46.954497, "lng": 31.95004}
         },
         {
             "name": "197",
-            "section": 2,
+            "districtId": "88a96abaed18",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9549138, "lng": 31.9513727}
         },
         {
             "name": "198",
-            "section": 1,
+            "districtId": "88a96abaed18",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9558764, "lng": 31.954305}
         },
         {
             "name": "199",
-            "section": 2,
+            "districtId": "88a96abaed18",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9559748, "lng": 31.9545766}
         },
         {
             "name": "200",
-            "section": 1,
+            "districtId": "88a96abaed18",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9561318, "lng": 31.9549816}
         },
         {
             "name": "201",
-            "section": 2,
+            "districtId": "88a96abaed18",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9571156, "lng": 31.9579712}
         },
         {
             "name": "202",
-            "section": 1,
+            "districtId": "88a96abaed18",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9572055, "lng": 31.9582294}
         },
         {
             "name": "203",
-            "section": 2,
+            "districtId": "88a96abaed18",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9577028, "lng": 31.9579954}
         },
         {
             "name": "204",
-            "section": 1,
+            "districtId": "88a96abaed18",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.957884, "lng": 31.957698}
         },
         {
             "name": "205",
-            "section": 2,
+            "districtId": "88a96abaed18",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9592449, "lng": 31.9551271}
         },
         {
             "name": "206",
-            "section": 1,
+            "districtId": "88a96abaed18",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9593069, "lng": 31.954877}
         },
         {
             "name": "207",
-            "section": 2,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9555152, "lng": 32.0360979}
         },
         {
             "name": "208",
-            "section": 1,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9553267, "lng": 32.0363933}
         },
         {
             "name": "209",
-            "section": 2,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9551747, "lng": 32.0365935}
         },
         {
             "name": "210",
-            "section": 1,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9549926, "lng": 32.036858}
         },
         {
             "name": "211",
-            "section": 2,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9548633, "lng": 32.0373002}
         },
         {
             "name": "212",
-            "section": 1,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9546358, "lng": 32.0374364}
         },
         {
             "name": "213",
-            "section": 2,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9551431, "lng": 32.0371631}
         },
         {
             "name": "214",
-            "section": 1,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "58b182599a25",
             "client": true,
             "position": {"lat": 46.954155, "lng": 32.0384918}
         },
         {
             "name": "215",
-            "section": 2,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9537783, "lng": 32.0390068}
         },
         {
             "name": "216",
-            "section": 1,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9534103, "lng": 32.0396385}
         },
         {
             "name": "217",
-            "section": 2,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9515814, "lng": 32.0423582}
         },
         {
             "name": "218",
-            "section": 1,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9510619, "lng": 32.0431203}
         },
         {
             "name": "219",
-            "section": 2,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.949385, "lng": 32.0455826}
         },
         {
             "name": "220",
-            "section": 1,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9490975, "lng": 32.0459929}
         },
         {
             "name": "221",
-            "section": 2,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9463056, "lng": 32.050078}
         },
         {
             "name": "222",
-            "section": 1,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9461012, "lng": 32.0503515}
         },
         {
             "name": "223",
-            "section": 2,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9426538, "lng": 32.0553991}
         },
         {
             "name": "224",
-            "section": 1,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9425302, "lng": 32.0555852}
         },
         {
             "name": "225",
-            "section": 2,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "24bd3610ec05",
             "client": true,
             "position": {"lat": 46.9427241, "lng": 32.0554762}
         },
         {
             "name": "226",
-            "section": 1,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.9430013, "lng": 32.0550749}
         },
         {
             "name": "227",
-            "section": 2,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.9502574, "lng": 32.0445754}
         },
         {
             "name": "228",
-            "section": 1,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.953825, "lng": 32.0394306}
         },
         {
             "name": "229",
-            "section": 2,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "24bd3610ec05",
             "client": false,
             "position": {"lat": 46.953922, "lng": 32.0395164}
         },
         {
             "name": "230",
-            "section": 1,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "58b182599a25",
             "client": false,
             "position": {"lat": 46.954021, "lng": 32.039093}
         },
         {
             "name": "231",
-            "section": 2,
+            "districtId": "ac6ea6d3b1f2",
+            "sectionId": "24bd3610ec05",
             "client": true,
             "position": {"lat": 46.954373, "lng": 32.038676}
+        }
+    ],
+    "districts": [
+        {
+            "id": "a70aa17d19d9",
+            "name": "ул. Соборная"
+        },
+        {
+            "id": "441848f2e138",
+            "name": "пр. Центральный"
+        },
+        {
+            "id": "ac6ea6d3b1f2",
+            "name": "пр. Мира"
+        },
+        {
+            "id": "88a96abaed18",
+            "name": "р-н Лески-Намыв"
+        }
+    ],
+    "sections": [
+        {
+            "id": "58b182599a25",
+            "name": "1",
+            "color": "hsl(240, 50%, 40%)"
+        },
+        {
+            "id": "24bd3610ec05",
+            "name": "2",
+            "color": "hsl(120, 50%, 40%)"
+        },
+        {
+            "id": "12aa44de593d",
+            "name": "3",
+            "color": "hsl(60, 50%, 40%)"
+        },
+        {
+            "id": "8a90725222f7",
+            "name": "4",
+            "color": "hsl(300, 50%, 40%)"
         }
     ]
 }
