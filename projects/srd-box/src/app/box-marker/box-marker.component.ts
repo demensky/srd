@@ -21,7 +21,7 @@ const BOTTOM_OFFSET = 1;
 
 @Component({
     // tslint:disable-next-line:component-selector
-    selector: 'svg[srdBoxMarker]',
+    selector: '[srdBoxMarker]',
     templateUrl: './box-marker.component.html',
     styleUrls: ['./box-marker.component.scss'],
     changeDetection: ChangeDetectionStrategy.OnPush,
