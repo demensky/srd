@@ -131,4 +131,14 @@ export class BoxesMapComponent {
     public getBoxColor({sectionId}: Box): Color {
         return this.sections.find(({id}) => id === sectionId).color;
     }
+
+    public boxTooltip({name, sectionId, client}: Box): string {
+        let result = `${name}/${sectionId}`;
+
+        if (client) {
+            result += ' (арендован)';
+        }
+
+        return result;
+    }
 }

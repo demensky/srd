@@ -1,10 +1,10 @@
 :host {
     position: absolute;
-    pointer-events: none;
+    //pointer-events: none;
     will-change: left, top, width, height;
 }
 
 :host * {
-    pointer-events: auto;
+    //pointer-events: auto;
     cursor: default;
 }

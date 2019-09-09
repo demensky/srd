@@ -4,6 +4,7 @@
             *ngFor="let box of boxes"
             [srdBoxMarker]="box"
             [srdBoxMarkerColor]="getBoxColor(box)"
+            matTooltip="aaaa"
         ></svg>
         <div gmControl="LEFT_BOTTOM" class="count">
             <table>
@@ -12,7 +13,9 @@
                         <th>{{ district.name }}</th>
                         <td
                             *ngFor="let section of sections"
-                            [style.backgroundColor]="section.color | lighten: 0.4"
+                            [style.backgroundColor]="
+                                section.color | lighten: 0.4
+                            "
                         >
                             {{ getBoxesCount(district, section) }}
                         </td>
