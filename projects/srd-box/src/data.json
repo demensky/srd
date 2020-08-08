@@ -67,12 +67,6 @@
             "position": {"lat": 46.9703906, "lng": 31.9914274}
         },
         {
-            "name": "12",
-            "section": 4,
-            "client": false,
-            "position": {"lat": 46.9705567, "lng": 31.9915548}
-        },
-        {
             "name": "13",
             "section": 1,
             "client": false,
@@ -289,12 +283,6 @@
             "position": {"lat": 46.9686417, "lng": 31.9903877}
         },
         {
-            "name": "49",
-            "section": 1,
-            "client": true,
-            "position": {"lat": 46.9683647, "lng": 31.9902268}
-        },
-        {
             "name": "50",
             "section": 2,
             "client": false,
@@ -473,18 +461,6 @@
             "section": 2,
             "client": false,
             "position": {"lat": 46.9675431, "lng": 31.9766934}
-        },
-        {
-            "name": "80",
-            "section": 3,
-            "client": false,
-            "position": {"lat": 46.9673486, "lng": 31.9789146}
-        },
-        {
-            "name": "81",
-            "section": 4,
-            "client": false,
-            "position": {"lat": 46.9673408, "lng": 31.9792391}
         },
         {
             "name": "82",
