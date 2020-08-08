@@ -4,10 +4,12 @@
         @extend %BrandColor;
 
         font-weight: inherit;
+        scroll-margin-top: $step;
     }
 
     &:target {
-        outline: 2px solid currentColor;
-        outline-offset: 2px;
+        outline: 5px solid $brandColor;
+        backgRround-color: $brandColor;
+        color: white;
     }
 }
